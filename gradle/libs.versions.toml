@@ -11,7 +11,9 @@ lifecycleRuntimeKtx = "2.8.7"
 activityCompose = "1.9.3"
 composeBom = "2024.11.00"
 daggerHilt = "2.51.1"
+material = "1.7.5"
 materialIconsExtended = "1.7.5"
+materialVersion = "1.12.0"
 navigationCompose = "2.8.4"
 room = "2.6.1"
 
@@ -50,6 +52,10 @@ kotlinx-coroutines-core = { group = "org.jetbrains.kotlinx", name = "kotlinx-cor
 androidx-room-compiler = { group = "androidx.room", name = "room-compiler", version.ref = "room" }
 androidx-room-runtime = { group = "androidx.room", name = "room-runtime", version.ref = "room" }
 androidx-room-ktx = { module = "androidx.room:room-ktx", version.ref = "room" }
+
+#Material
+androidx-material = { module = "androidx.compose.material:material", version.ref = "material" }
+material = { module = "com.google.android.material:material", version.ref = "materialVersion" }
 
 [bundles]
 kotlinx-coroutines-bundle = ["kotlinx-coroutines-core", "kotlinx-coroutines-android"]
