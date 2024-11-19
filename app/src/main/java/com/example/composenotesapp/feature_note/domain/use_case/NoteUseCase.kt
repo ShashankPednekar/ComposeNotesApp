@@ -4,4 +4,5 @@ data class NoteUseCase(
     val addNotes: AddNotes,
     val getNotes: GetNotes,
     val deleteNote: DeleteNotes,
+    val getNote: GetNote,
 )
